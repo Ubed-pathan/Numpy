@@ -144,4 +144,5 @@ np.vsplit()
 
 arr22 =np.array([1,2,3,4,5,6])
 #  it not conert array to list directly
+# we have to convert list into array
 print(np.split(arr22,2))
