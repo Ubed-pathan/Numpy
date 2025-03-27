@@ -15,3 +15,8 @@ result = arr1 + arr2
 
 print(result)
 
+# but there is solution for it by using reshape method
+
+arr2 = arr2.reshape(2,1)
+result = arr1 + arr2
+print(result)
